@@ -1,0 +1,101 @@
+[
+  {
+    "id": "enslaved-org",
+    "name": "Enslaved: Peoples of the Historical Slave Trade",
+    "url": "https://enslaved.org/",
+    "coverage": ["global", "atlantic-world", "africa", "americas", "europe"],
+    "dateRange": [1400, 1920],
+    "recordTypes": ["biographical-aggregate", "people", "events", "places", "sources"],
+    "access": "free",
+    "isPortal": true,
+    "notes": "Aggregates many contributed datasets rather than being one archive. Good broad first pass, not church-record-specific."
+  },
+  {
+    "id": "nara-slavery-records",
+    "name": "National Archives (NARA) — African American Heritage / Slavery Records",
+    "url": "https://www.archives.gov/research/african-americans/slavery-records-civil.html",
+    "coverage": ["united-states", "federal"],
+    "dateRange": [1789, 1877],
+    "recordTypes": ["freedmens-bureau", "freedmans-bank", "court-case-files", "congressional-petitions", "military-records", "slave-schedules"],
+    "access": "free",
+    "isPortal": false,
+    "notes": "Best for 1861-1877 Civil War/Reconstruction records. Most antebellum property/ownership records are NOT here — those are county-level. Slave schedules are tallies only, not name-searchable."
+  },
+  {
+    "id": "brown-libguide",
+    "name": "Brown University Library — Researching Slavery and the Slave Trade",
+    "url": "https://libguides.brown.edu/slavery",
+    "coverage": ["atlantic-world", "united-states-south", "mid-atlantic", "chesapeake", "caribbean", "new-york-city"],
+    "dateRange": [1500, 1900],
+    "recordTypes": ["voyage-records", "court-petitions", "institutional-slavery-records", "archaeological", "runaway-records", "narratives"],
+    "access": "free",
+    "isPortal": true,
+    "notes": "Portal, not a single database. Links to Slave Voyages, Race and Slavery Petitions Project (UNC Greensboro), Georgetown Slavery Archive, Columbia University & Slavery, DAACS, Sydney Howard Gay's Record of Fugitives, VA/MD runaway ad collections, WPA narratives reference."
+  },
+  {
+    "id": "slave-societies-digital-archive",
+    "name": "Slave Societies Digital Archive (SSDA)",
+    "url": "https://www.slavesocieties.org/",
+    "coverage": ["brazil", "cuba", "colombia", "spanish-florida"],
+    "dateRange": [1594, 1882],
+    "recordTypes": ["church-baptism", "church-marriage", "church-confirmation", "church-burial", "wills", "manumission-letters", "property-registries"],
+    "access": "free",
+    "isPortal": false,
+    "notes": "Primary church-records source for Catholic colonial contexts. Does NOT cover Louisiana — do not treat 'Catholic colonial' as a sufficient match condition; coverage list is explicit and limited to Brazil, Cuba, Colombia, Spanish Florida. Angola collection viewable in person only at Vanderbilt."
+  },
+  {
+    "id": "mhahp",
+    "name": "Mid-Hudson Antislavery History Project (Vassar)",
+    "url": "https://mhahp.vassarspaces.net/databases-selected-resources/",
+    "coverage": ["new-york", "hudson-valley", "ulster-county"],
+    "dateRange": [1650, 1827],
+    "recordTypes": ["court-cases", "tax-records", "local-primary-sources"],
+    "access": "free",
+    "isPortal": true,
+    "notes": "Portal for a regional/local project. Links to NESRI, Slave Voyages, Intra-American slave trade database. Good template for county/regional projects generally."
+  },
+  {
+    "id": "freedmens-bureau-portal",
+    "name": "Freedmen's Bureau Search Portal (NMAAHC / FamilySearch)",
+    "url": "https://www.familysearch.org/en/discovery-bureau/",
+    "coverage": ["united-states"],
+    "dateRange": [1865, 1872],
+    "recordTypes": ["freedmens-bureau"],
+    "access": "free",
+    "isPortal": false,
+    "notes": "Name-searchable index of Freedmen's Bureau records."
+  },
+  {
+    "id": "freedom-on-the-move",
+    "name": "Freedom on the Move",
+    "url": "https://www.freedomonthemove.org/",
+    "coverage": ["united-states"],
+    "dateRange": [1750, 1865],
+    "recordTypes": ["runaway-advertisements"],
+    "access": "free",
+    "isPortal": false,
+    "notes": "Database of runaway advertisements placed by enslavers."
+  },
+  {
+    "id": "nesri",
+    "name": "Northeast Slavery Records Index (NESRI)",
+    "url": "https://nesri.commons.gc.cuny.edu/",
+    "coverage": ["new-york", "new-jersey", "connecticut", "massachusetts", "rhode-island", "vermont", "new-hampshire", "maine"],
+    "dateRange": [1650, 1830],
+    "recordTypes": ["individual-records", "enslaver-records"],
+    "access": "free",
+    "isPortal": false,
+    "notes": "Searchable index of individual enslaved persons and enslavers throughout the Northeast."
+  },
+  {
+    "id": "digital-library-american-slavery",
+    "name": "Digital Library on American Slavery (UNC Greensboro)",
+    "url": "https://dlas.uncg.edu/",
+    "coverage": ["united-states-south"],
+    "dateRange": [1775, 1867],
+    "recordTypes": ["court-legislative-petitions", "voyage-records"],
+    "access": "free",
+    "isPortal": false,
+    "notes": "Includes the Race and Slavery Petitions Project and ~35,000 voyage records."
+  }
+]

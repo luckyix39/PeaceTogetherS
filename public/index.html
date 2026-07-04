@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Enslaved Ancestor Research Assistant</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<main>
+  <h1>Research assistant</h1>
+  <p class="subtitle">Enter what you know. This generates a research checklist and a small set of hypotheses to verify — not a confirmed history.</p>
+
+  <form id="research-form">
+    <label>Location(s) known
+      <input type="text" name="location" placeholder="e.g. Loudoun County, Virginia" />
+    </label>
+    <label>Approximate date range
+      <input type="text" name="dateRange" placeholder="e.g. 1830-1870" />
+    </label>
+    <label>Known names (person, family, suspected enslaver)
+      <input type="text" name="names" placeholder="e.g. Carter" />
+    </label>
+    <label>Known religious affiliation (optional)
+      <input type="text" name="denomination" placeholder="e.g. Baptist" />
+    </label>
+    <label>Known events (optional)
+      <input type="text" name="events" placeholder="e.g. sale, migration, manumission" />
+    </label>
+    <button type="submit">Generate research plan</button>
+  </form>
+
+  <div id="followup" class="hidden"></div>
+  <div id="results" class="hidden"></div>
+  <div id="loading" class="hidden">Working...</div>
+  <div id="error" class="hidden"></div>
+</main>
+<script src="app.js"></script>
+</body>
+</html>
